@@ -19,7 +19,7 @@ def split_audio_into_parts(input_file, output_prefix, duration_per_part):
         part_audio = audio_clip.subclip(start_time, end_time)
         
         # Generate the output file name
-        output_file = f"{output_prefix}_{i}.mp3"
+        output_file = f"{output_prefix} {i}.mp3"
         
         # Write the part audio to an MP3 file
         part_audio.write_audiofile(output_file, codec='libmp3lame')
