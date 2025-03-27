@@ -6,7 +6,7 @@ Audio_Splitter_MP3 is a Python script that allows you to split an audio file int
 
 1. Install the necessary dependencies:
    ```bash
-   pip install moviepy
+   pip install moviepy==1.0.3
    ```
 
 2. Clone the repository:
